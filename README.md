@@ -29,11 +29,3 @@ An interactive decision-support dashboard built on top of an Analytic Derivative
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## CV Bullet Points
-- Developed an interactive power-grid decision-support dashboard (Streamlit & Plotly) integrating an ADF-GNN model trained on simulated IEEE 30-bus power systems (60 variable nodes, 100 factor sensors).
-- Implemented dual uncertainty quantification (aleatoric via ADF moment matching, epistemic via Monte Carlo dropout) and human-in-the-loop sensor noise steering.
-- Added explainable AI (XAI) visualizations of graph-attention weights to trace which sensors drive each bus state estimate.
-
-## Claims to Avoid
-- Do not claim deployment in commercial transmission system operator (TSO) control rooms.
